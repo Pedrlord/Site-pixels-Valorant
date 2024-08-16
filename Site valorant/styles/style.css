@@ -1,0 +1,42 @@
+@import url(/styles/background.css);
+@import url(/styles/header.css);
+
+#perso{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+aside{
+    height: 750px;
+    margin-top: 37px;
+    display: flex;
+    justify-content: end;
+    
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.text h1{
+    padding: 35px 50px 50px 50px;
+    margin: 0px 50px 50px 200px;
+    width: 620px;
+    border-radius: 20px;
+}
+
+body{
+    overflow: hidden;
+}
+
+.text img{
+    height: 80px;
+    margin: 200px 0px 0px 250px;
+}
+
+
+
+
