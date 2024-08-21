@@ -1,0 +1,29 @@
+@import url(/styles/header.css);
+
+#background{
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1
+}
+
+#background img{
+    height: 100%;
+    width: 100%;
+}
+
+#background::after{
+    content: '';
+    width: inherit;
+    height: inherit;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.568);
+}
+
+aside{
+    display: flex;
+    justify-content: end;
+    
+}
